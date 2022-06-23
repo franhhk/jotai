@@ -15,6 +15,18 @@ export default function Main() {
         <li>
           <Link to="/text-length">text length</Link>
         </li>
+        <li>
+          <Link to="/atom-in-atom-count">atom in atom count</Link>
+        </li>
+        <li>
+          <Link to="/focusAtom">FocusAtom</Link>
+        </li>
+        <li>
+          <Link to="/splitAtom">SplitAtom</Link>
+        </li>
+        <li>
+          <Link to="/query">query</Link>
+        </li>
       </ul>
     </>
   );
