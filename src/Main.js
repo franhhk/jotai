@@ -27,6 +27,9 @@ export default function Main() {
         <li>
           <Link to="/query">query</Link>
         </li>
+        <li>
+          <Link to="/async">Async</Link>
+        </li>
       </ul>
     </>
   );

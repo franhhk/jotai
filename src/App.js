@@ -7,6 +7,7 @@ import AtomInAtomCount from './jotaiTest/AtomInAtomCount';
 import FocusAtom from './jotaiTest/FocusAtom';
 import SplitAtom from './jotaiTest/SplitAtom';
 import Query from './jotaiTest/Query';
+import AsyncComp from './jotaiTest/Async';
 
 /**
  * Jotai 관련 테스트 진행 중
@@ -25,6 +26,7 @@ function App() {
         <Route path="focusAtom" element={<FocusAtom />} />
         <Route path="splitAtom" element={<SplitAtom />} />
         <Route path="Query" element={<Query />} />
+        <Route path="async" element={<AsyncComp />} />
         <Route path="*" element={<h1>Not Found</h1>} />
       </Routes>
     </BrowserRouter>
